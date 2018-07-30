@@ -1,8 +1,16 @@
 
+div {
+    margin: 0;
+}
+
 .content {
     background-color: red;
 }
 
 .swap-color {
     background-color: yellow;
+}
+
+.paragraph {
+    background-color: red;
 }
