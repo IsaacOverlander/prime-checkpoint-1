@@ -1,6 +1,6 @@
 $(document).ready(readyNow);
 
-let numberClicked = 0
+let numberClicked = 1;
 
 function readyNow() {
     $('#generate').on('click', addDiv);
@@ -9,11 +9,9 @@ function readyNow() {
 }
 
 function addDiv() {
+    $('#container').append('<div class="content"></div>');
+    $('.content').html('<p>' + numberClicked + '</p><br/> <button class="swap">Swap</button> <button class="delete">Delete</button>');
     numberClicked += 1;
-    $('#container').html('<div class="content"></div>');
-    $('.content').html('<p>' + numberClicked + '</p>');
-    $('.content').append('<button class="swap">Swap</button>')
-    $('.content').append('<button class="delete">Delete</button>')
 }
 
 function swapColor() {
