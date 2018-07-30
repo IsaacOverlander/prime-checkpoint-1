@@ -11,4 +11,6 @@ function addDiv() {
     numberClicked += 1;
     $('#container').html('<div id="content"></div>');
     $('#content').html('<p>' + numberClicked + '</p>');
+    $('#content').append('<button id="swap">Swap</button>')
+    $('#content').append('<button id="delete">Delete</button>')
 }
