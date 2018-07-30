@@ -6,4 +6,4 @@
 [x] create a <p> element inside the div created in the previous step that counts the number of times the button was clicked
 [x] add two buttons inside the div created in step two named 'Swap' and 'Delete'
 [x] add logic to change background color when 'Swap' is clicked
-[] add logic for delete button
+[x] add logic for delete button
