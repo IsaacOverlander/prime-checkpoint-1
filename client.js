@@ -1,6 +1,10 @@
 $(document).ready(readyNow);
 
 function readyNow() {
-    console.log('jQuery functional');
+    $('#generate').on('click', addDiv);
     
+}
+
+function addDiv() {
+    $('#container').append('<div id="content"></div>');
 }
